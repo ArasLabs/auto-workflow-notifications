@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="Method" id="18111EADE1804132A0C5BCF4DE676D5C" action="add">
+  <method_code><![CDATA[Dim iDom As XmlDocument = CCO.XML.CreateXMLDocument()
+Dim oDom As XmlDocument = CCO.XML.CreateXMLDocument()
+CCO.Workflow.ExecuteReminders(iDom,oDom)]]></method_code>
+  <method_type>VB</method_type>
+  <name>Send Email Reminders</name>
+ </Item>
+</AML>

@@ -1,0 +1,9 @@
+﻿<AML>
+ <Item type="Method" id="7B2DB4251D37486F9E1A83D9B432A69F" action="add">
+  <method_code><![CDATA[Dim iDom As XmlDocument = CCO.XML.CreateXMLDocument()
+Dim oDom As XmlDocument = CCO.XML.CreateXMLDocument()
+CCO.Workflow.ExecuteEscalations(iDom,oDom)]]></method_code>
+  <method_type>VB</method_type>
+  <name>Check Escalations</name>
+ </Item>
+</AML>
